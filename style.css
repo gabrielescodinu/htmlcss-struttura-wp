@@ -1,0 +1,105 @@
+body {
+  box-sizing: border-box;
+  background-image: url(https://eskipaper.com/images/wood-wallpaper-14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* header */
+.background {
+  background: black;
+  background-image: url(https://i.redd.it/sz4adphrwnb31.png);
+  height: 300px;
+  position: relative;
+  border: 10px solid white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background: grey;
+  height: 40px;
+  text-align: center;
+}
+
+h1 {
+  position: absolute;
+  bottom:15%;
+  padding: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border: 10px solid white;
+}
+
+h2 {
+  position: absolute;
+  bottom:0;
+  padding: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+/* main */
+.container {
+  width: 100%;
+}
+
+.block {
+  margin: 50px;
+  width: 500px;
+  height: 500px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  height: 600px;
+}
+.middle {
+  float: right;
+
+}
+.right {
+  float: right;
+}
+
+.left_p {
+  margin: 10px;
+  color: green;
+}
+.middle_p {
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+.right_p {
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid black;
+  background: red;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+/* credits */
+footer {
+  background: black;
+  height: 300px;
+  bottom: 0;
+  display: inline-block;
+
+}
